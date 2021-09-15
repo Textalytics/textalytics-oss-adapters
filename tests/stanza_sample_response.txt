@@ -1,0 +1,2861 @@
+text: "We went to Contoso Steakhouse located at midtown NYC last week for a dinner party, and we adore the spot! They provide marvelous food and they have a great menu. The chief cook happens to be the owner (I think his name is John Doe) and he is super nice, coming out of the kitchen and greeted us all. We enjoyed very much dining in the place! The Sirloin steak I ordered was tender and juicy, and the place was impeccably clean. You can even pre-order from their online menu at www.contososteakhouse.com, call 312-555-0176 or send email to order@contososteakhouse.com! The only complaint I have is the food didn\'t come fast enough. Overall I highly recommend it!"
+sentence {
+  token {
+    word: "We"
+    pos: "PRP"
+    value: "We"
+    before: ""
+    after: " "
+    originalText: "We"
+    ner: "O"
+    lemma: "we"
+    beginChar: 0
+    endChar: 2
+    tokenBeginIndex: 0
+    tokenEndIndex: 1
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999304205116202"
+  }
+  token {
+    word: "went"
+    pos: "VBD"
+    value: "went"
+    before: " "
+    after: " "
+    originalText: "went"
+    ner: "O"
+    lemma: "go"
+    beginChar: 3
+    endChar: 7
+    tokenBeginIndex: 1
+    tokenEndIndex: 2
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999993391611407"
+  }
+  token {
+    word: "to"
+    pos: "IN"
+    value: "to"
+    before: " "
+    after: " "
+    originalText: "to"
+    ner: "O"
+    lemma: "to"
+    beginChar: 8
+    endChar: 10
+    tokenBeginIndex: 2
+    tokenEndIndex: 3
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999591967312013"
+  }
+  token {
+    word: "Contoso"
+    pos: "NNP"
+    value: "Contoso"
+    before: " "
+    after: " "
+    originalText: "Contoso"
+    ner: "ORGANIZATION"
+    lemma: "Contoso"
+    beginChar: 11
+    endChar: 18
+    tokenBeginIndex: 3
+    tokenEndIndex: 4
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "ORGANIZATION"
+    fineGrainedNER: "ORGANIZATION"
+    entityMentionIndex: 0
+    nerLabelProbs: "ORGANIZATION=0.5030457272679433"
+  }
+  token {
+    word: "Steakhouse"
+    pos: "NN"
+    value: "Steakhouse"
+    before: " "
+    after: " "
+    originalText: "Steakhouse"
+    ner: "ORGANIZATION"
+    lemma: "steakhouse"
+    beginChar: 19
+    endChar: 29
+    tokenBeginIndex: 4
+    tokenEndIndex: 5
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "ORGANIZATION"
+    fineGrainedNER: "ORGANIZATION"
+    entityMentionIndex: 0
+    nerLabelProbs: "ORGANIZATION=0.5010024971569863"
+  }
+  token {
+    word: "located"
+    pos: "VBN"
+    value: "located"
+    before: " "
+    after: " "
+    originalText: "located"
+    ner: "O"
+    lemma: "locate"
+    beginChar: 30
+    endChar: 37
+    tokenBeginIndex: 5
+    tokenEndIndex: 6
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9979713772238498"
+  }
+  token {
+    word: "at"
+    pos: "IN"
+    value: "at"
+    before: " "
+    after: " "
+    originalText: "at"
+    ner: "O"
+    lemma: "at"
+    beginChar: 38
+    endChar: 40
+    tokenBeginIndex: 6
+    tokenEndIndex: 7
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999782021704666"
+  }
+  token {
+    word: "midtown"
+    pos: "JJ"
+    value: "midtown"
+    before: " "
+    after: " "
+    originalText: "midtown"
+    ner: "O"
+    lemma: "midtown"
+    beginChar: 41
+    endChar: 48
+    tokenBeginIndex: 7
+    tokenEndIndex: 8
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.7593555579781482"
+  }
+  token {
+    word: "NYC"
+    pos: "NNP"
+    value: "NYC"
+    before: " "
+    after: " "
+    originalText: "NYC"
+    ner: "CITY"
+    lemma: "NYC"
+    beginChar: 49
+    endChar: 52
+    tokenBeginIndex: 8
+    tokenEndIndex: 9
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "LOCATION"
+    fineGrainedNER: "CITY"
+    entityMentionIndex: 1
+    nerLabelProbs: "LOCATION=0.6020081971364785"
+  }
+  token {
+    word: "last"
+    pos: "JJ"
+    value: "last"
+    before: " "
+    after: " "
+    originalText: "last"
+    ner: "DATE"
+    normalizedNER: "THIS P1W OFFSET P-1W"
+    lemma: "last"
+    beginChar: 53
+    endChar: 57
+    tokenBeginIndex: 9
+    tokenEndIndex: 10
+    timexValue {
+      altValue: "THIS P1W OFFSET P-1W"
+      text: "last week"
+      type: "DATE"
+      tid: "t1"
+    }
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "DATE"
+    fineGrainedNER: "DATE"
+    entityMentionIndex: 2
+    nerLabelProbs: "DATE=0.7849558335974091"
+  }
+  token {
+    word: "week"
+    pos: "NN"
+    value: "week"
+    before: " "
+    after: " "
+    originalText: "week"
+    ner: "DATE"
+    normalizedNER: "THIS P1W OFFSET P-1W"
+    lemma: "week"
+    beginChar: 58
+    endChar: 62
+    tokenBeginIndex: 10
+    tokenEndIndex: 11
+    timexValue {
+      altValue: "THIS P1W OFFSET P-1W"
+      text: "last week"
+      type: "DATE"
+      tid: "t1"
+    }
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "DATE"
+    fineGrainedNER: "DATE"
+    entityMentionIndex: 2
+    nerLabelProbs: "DATE=0.7849558335974091"
+  }
+  token {
+    word: "for"
+    pos: "IN"
+    value: "for"
+    before: " "
+    after: " "
+    originalText: "for"
+    ner: "O"
+    lemma: "for"
+    beginChar: 63
+    endChar: 66
+    tokenBeginIndex: 11
+    tokenEndIndex: 12
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999979696778644"
+  }
+  token {
+    word: "a"
+    pos: "DT"
+    value: "a"
+    before: " "
+    after: " "
+    originalText: "a"
+    ner: "O"
+    lemma: "a"
+    beginChar: 67
+    endChar: 68
+    tokenBeginIndex: 12
+    tokenEndIndex: 13
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999944652935512"
+  }
+  token {
+    word: "dinner"
+    pos: "NN"
+    value: "dinner"
+    before: " "
+    after: " "
+    originalText: "dinner"
+    ner: "O"
+    lemma: "dinner"
+    beginChar: 69
+    endChar: 75
+    tokenBeginIndex: 13
+    tokenEndIndex: 14
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999605629256946"
+  }
+  token {
+    word: "party"
+    pos: "NN"
+    value: "party"
+    before: " "
+    after: ""
+    originalText: "party"
+    ner: "O"
+    lemma: "party"
+    beginChar: 76
+    endChar: 81
+    tokenBeginIndex: 14
+    tokenEndIndex: 15
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.999880532983643"
+  }
+  token {
+    word: ","
+    pos: ","
+    value: ","
+    before: ""
+    after: " "
+    originalText: ","
+    ner: "O"
+    lemma: ","
+    beginChar: 81
+    endChar: 82
+    tokenBeginIndex: 15
+    tokenEndIndex: 16
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999978021352541"
+  }
+  token {
+    word: "and"
+    pos: "CC"
+    value: "and"
+    before: " "
+    after: " "
+    originalText: "and"
+    ner: "O"
+    lemma: "and"
+    beginChar: 83
+    endChar: 86
+    tokenBeginIndex: 16
+    tokenEndIndex: 17
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999988467368268"
+  }
+  token {
+    word: "we"
+    pos: "PRP"
+    value: "we"
+    before: " "
+    after: " "
+    originalText: "we"
+    ner: "O"
+    lemma: "we"
+    beginChar: 87
+    endChar: 89
+    tokenBeginIndex: 17
+    tokenEndIndex: 18
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999988178837663"
+  }
+  token {
+    word: "adore"
+    pos: "VBP"
+    value: "adore"
+    before: " "
+    after: " "
+    originalText: "adore"
+    ner: "O"
+    lemma: "adore"
+    beginChar: 90
+    endChar: 95
+    tokenBeginIndex: 18
+    tokenEndIndex: 19
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999994078802436"
+  }
+  token {
+    word: "the"
+    pos: "DT"
+    value: "the"
+    before: " "
+    after: " "
+    originalText: "the"
+    ner: "O"
+    lemma: "the"
+    beginChar: 96
+    endChar: 99
+    tokenBeginIndex: 19
+    tokenEndIndex: 20
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999996165398268"
+  }
+  token {
+    word: "spot"
+    pos: "NN"
+    value: "spot"
+    before: " "
+    after: ""
+    originalText: "spot"
+    ner: "O"
+    lemma: "spot"
+    beginChar: 100
+    endChar: 104
+    tokenBeginIndex: 20
+    tokenEndIndex: 21
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999897114474329"
+  }
+  token {
+    word: "!"
+    pos: "."
+    value: "!"
+    before: ""
+    after: " "
+    originalText: "!"
+    ner: "O"
+    lemma: "!"
+    beginChar: 104
+    endChar: 105
+    tokenBeginIndex: 21
+    tokenEndIndex: 22
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999573008292181"
+  }
+  tokenOffsetBegin: 0
+  tokenOffsetEnd: 22
+  sentenceIndex: 0
+  characterOffsetBegin: 0
+  characterOffsetEnd: 105
+  hasRelationAnnotations: false
+  hasNumerizedTokensAnnotation: false
+  mentions {
+    sentenceIndex: 0
+    tokenStartInSentenceInclusive: 3
+    tokenEndInSentenceExclusive: 5
+    ner: "ORGANIZATION"
+    entityType: "ORGANIZATION"
+    entityMentionIndex: 0
+    canonicalEntityMentionIndex: 0
+    entityMentionText: "Contoso Steakhouse"
+  }
+  mentions {
+    sentenceIndex: 0
+    tokenStartInSentenceInclusive: 8
+    tokenEndInSentenceExclusive: 9
+    ner: "CITY"
+    entityType: "CITY"
+    entityMentionIndex: 1
+    canonicalEntityMentionIndex: 1
+    entityMentionText: "NYC"
+  }
+  mentions {
+    sentenceIndex: 0
+    tokenStartInSentenceInclusive: 9
+    tokenEndInSentenceExclusive: 11
+    ner: "DATE"
+    normalizedNER: "THIS P1W OFFSET P-1W"
+    entityType: "DATE"
+    timex {
+      altValue: "THIS P1W OFFSET P-1W"
+      text: "last week"
+      type: "DATE"
+      tid: "t1"
+    }
+    entityMentionIndex: 2
+    canonicalEntityMentionIndex: 2
+    entityMentionText: "last week"
+  }
+  hasEntityMentionsAnnotation: true
+}
+sentence {
+  token {
+    word: "They"
+    pos: "PRP"
+    value: "They"
+    before: " "
+    after: " "
+    originalText: "They"
+    ner: "O"
+    lemma: "they"
+    beginChar: 106
+    endChar: 110
+    tokenBeginIndex: 22
+    tokenEndIndex: 23
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999564572588108"
+  }
+  token {
+    word: "provide"
+    pos: "VBP"
+    value: "provide"
+    before: " "
+    after: " "
+    originalText: "provide"
+    ner: "O"
+    lemma: "provide"
+    beginChar: 111
+    endChar: 118
+    tokenBeginIndex: 23
+    tokenEndIndex: 24
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.999997015404651"
+  }
+  token {
+    word: "marvelous"
+    pos: "JJ"
+    value: "marvelous"
+    before: " "
+    after: " "
+    originalText: "marvelous"
+    ner: "O"
+    lemma: "marvelous"
+    beginChar: 119
+    endChar: 128
+    tokenBeginIndex: 24
+    tokenEndIndex: 25
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999527223430359"
+  }
+  token {
+    word: "food"
+    pos: "NN"
+    value: "food"
+    before: " "
+    after: " "
+    originalText: "food"
+    ner: "O"
+    lemma: "food"
+    beginChar: 129
+    endChar: 133
+    tokenBeginIndex: 25
+    tokenEndIndex: 26
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999786942798835"
+  }
+  token {
+    word: "and"
+    pos: "CC"
+    value: "and"
+    before: " "
+    after: " "
+    originalText: "and"
+    ner: "O"
+    lemma: "and"
+    beginChar: 134
+    endChar: 137
+    tokenBeginIndex: 26
+    tokenEndIndex: 27
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.999999262926126"
+  }
+  token {
+    word: "they"
+    pos: "PRP"
+    value: "they"
+    before: " "
+    after: " "
+    originalText: "they"
+    ner: "O"
+    lemma: "they"
+    beginChar: 138
+    endChar: 142
+    tokenBeginIndex: 27
+    tokenEndIndex: 28
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999931668708203"
+  }
+  token {
+    word: "have"
+    pos: "VBP"
+    value: "have"
+    before: " "
+    after: " "
+    originalText: "have"
+    ner: "O"
+    lemma: "have"
+    beginChar: 143
+    endChar: 147
+    tokenBeginIndex: 28
+    tokenEndIndex: 29
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999998210878847"
+  }
+  token {
+    word: "a"
+    pos: "DT"
+    value: "a"
+    before: " "
+    after: " "
+    originalText: "a"
+    ner: "O"
+    lemma: "a"
+    beginChar: 148
+    endChar: 149
+    tokenBeginIndex: 29
+    tokenEndIndex: 30
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999997306134468"
+  }
+  token {
+    word: "great"
+    pos: "JJ"
+    value: "great"
+    before: " "
+    after: " "
+    originalText: "great"
+    ner: "O"
+    lemma: "great"
+    beginChar: 150
+    endChar: 155
+    tokenBeginIndex: 30
+    tokenEndIndex: 31
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999160226341963"
+  }
+  token {
+    word: "menu"
+    pos: "NN"
+    value: "menu"
+    before: " "
+    after: ""
+    originalText: "menu"
+    ner: "O"
+    lemma: "menu"
+    beginChar: 156
+    endChar: 160
+    tokenBeginIndex: 31
+    tokenEndIndex: 32
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9996331510546953"
+  }
+  token {
+    word: "."
+    pos: "."
+    value: "."
+    before: ""
+    after: " "
+    originalText: "."
+    ner: "O"
+    lemma: "."
+    beginChar: 160
+    endChar: 161
+    tokenBeginIndex: 32
+    tokenEndIndex: 33
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999991276198837"
+  }
+  tokenOffsetBegin: 22
+  tokenOffsetEnd: 33
+  sentenceIndex: 1
+  characterOffsetBegin: 106
+  characterOffsetEnd: 161
+  hasRelationAnnotations: false
+  hasNumerizedTokensAnnotation: false
+  hasEntityMentionsAnnotation: true
+}
+sentence {
+  token {
+    word: "The"
+    pos: "DT"
+    value: "The"
+    before: " "
+    after: " "
+    originalText: "The"
+    ner: "O"
+    lemma: "the"
+    beginChar: 162
+    endChar: 165
+    tokenBeginIndex: 33
+    tokenEndIndex: 34
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999814653731834"
+  }
+  token {
+    word: "chief"
+    pos: "JJ"
+    value: "chief"
+    before: " "
+    after: " "
+    originalText: "chief"
+    ner: "TITLE"
+    lemma: "chief"
+    beginChar: 166
+    endChar: 171
+    tokenBeginIndex: 34
+    tokenEndIndex: 35
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "TITLE"
+    entityMentionIndex: 3
+    nerLabelProbs: "O=0.999942411717403"
+  }
+  token {
+    word: "cook"
+    pos: "NN"
+    value: "cook"
+    before: " "
+    after: " "
+    originalText: "cook"
+    ner: "TITLE"
+    lemma: "cook"
+    beginChar: 172
+    endChar: 176
+    tokenBeginIndex: 35
+    tokenEndIndex: 36
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "TITLE"
+    entityMentionIndex: 3
+    nerLabelProbs: "O=0.9963010784216237"
+  }
+  token {
+    word: "happens"
+    pos: "VBZ"
+    value: "happens"
+    before: " "
+    after: " "
+    originalText: "happens"
+    ner: "O"
+    lemma: "happen"
+    beginChar: 177
+    endChar: 184
+    tokenBeginIndex: 36
+    tokenEndIndex: 37
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999379146497485"
+  }
+  token {
+    word: "to"
+    pos: "TO"
+    value: "to"
+    before: " "
+    after: " "
+    originalText: "to"
+    ner: "O"
+    lemma: "to"
+    beginChar: 185
+    endChar: 187
+    tokenBeginIndex: 37
+    tokenEndIndex: 38
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999971280107361"
+  }
+  token {
+    word: "be"
+    pos: "VB"
+    value: "be"
+    before: " "
+    after: " "
+    originalText: "be"
+    ner: "O"
+    lemma: "be"
+    beginChar: 188
+    endChar: 190
+    tokenBeginIndex: 38
+    tokenEndIndex: 39
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9977800860043868"
+  }
+  token {
+    word: "the"
+    pos: "DT"
+    value: "the"
+    before: " "
+    after: " "
+    originalText: "the"
+    ner: "O"
+    lemma: "the"
+    beginChar: 191
+    endChar: 194
+    tokenBeginIndex: 39
+    tokenEndIndex: 40
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9971576691376334"
+  }
+  token {
+    word: "owner"
+    pos: "NN"
+    value: "owner"
+    before: " "
+    after: " "
+    originalText: "owner"
+    ner: "TITLE"
+    lemma: "owner"
+    beginChar: 195
+    endChar: 200
+    tokenBeginIndex: 40
+    tokenEndIndex: 41
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "TITLE"
+    entityMentionIndex: 4
+    nerLabelProbs: "O=0.9880807120373486"
+  }
+  token {
+    word: "("
+    pos: "-LRB-"
+    value: "("
+    before: " "
+    after: ""
+    originalText: "("
+    ner: "O"
+    lemma: "("
+    beginChar: 201
+    endChar: 202
+    tokenBeginIndex: 41
+    tokenEndIndex: 42
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9974536217243447"
+  }
+  token {
+    word: "I"
+    pos: "PRP"
+    value: "I"
+    before: ""
+    after: " "
+    originalText: "I"
+    ner: "O"
+    lemma: "I"
+    beginChar: 202
+    endChar: 203
+    tokenBeginIndex: 42
+    tokenEndIndex: 43
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9983687486775811"
+  }
+  token {
+    word: "think"
+    pos: "VBP"
+    value: "think"
+    before: " "
+    after: " "
+    originalText: "think"
+    ner: "O"
+    lemma: "think"
+    beginChar: 204
+    endChar: 209
+    tokenBeginIndex: 43
+    tokenEndIndex: 44
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999021626926443"
+  }
+  token {
+    word: "his"
+    pos: "PRP$"
+    value: "his"
+    before: " "
+    after: " "
+    originalText: "his"
+    ner: "O"
+    lemma: "he"
+    beginChar: 210
+    endChar: 213
+    tokenBeginIndex: 44
+    tokenEndIndex: 45
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    entityMentionIndex: 6
+    nerLabelProbs: "O=0.9999929557037309"
+  }
+  token {
+    word: "name"
+    pos: "NN"
+    value: "name"
+    before: " "
+    after: " "
+    originalText: "name"
+    ner: "O"
+    lemma: "name"
+    beginChar: 214
+    endChar: 218
+    tokenBeginIndex: 45
+    tokenEndIndex: 46
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.999986805426453"
+  }
+  token {
+    word: "is"
+    pos: "VBZ"
+    value: "is"
+    before: " "
+    after: " "
+    originalText: "is"
+    ner: "O"
+    lemma: "be"
+    beginChar: 219
+    endChar: 221
+    tokenBeginIndex: 46
+    tokenEndIndex: 47
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9998797923339965"
+  }
+  token {
+    word: "John"
+    pos: "NNP"
+    value: "John"
+    before: " "
+    after: " "
+    originalText: "John"
+    ner: "PERSON"
+    lemma: "John"
+    beginChar: 222
+    endChar: 226
+    tokenBeginIndex: 47
+    tokenEndIndex: 48
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "PERSON"
+    fineGrainedNER: "PERSON"
+    entityMentionIndex: 5
+    nerLabelProbs: "PERSON=0.99997717916392"
+  }
+  token {
+    word: "Doe"
+    pos: "NNP"
+    value: "Doe"
+    before: " "
+    after: ""
+    originalText: "Doe"
+    ner: "PERSON"
+    lemma: "Doe"
+    beginChar: 227
+    endChar: 230
+    tokenBeginIndex: 48
+    tokenEndIndex: 49
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "PERSON"
+    fineGrainedNER: "PERSON"
+    entityMentionIndex: 5
+    nerLabelProbs: "PERSON=0.9998475144627794"
+  }
+  token {
+    word: ")"
+    pos: "-RRB-"
+    value: ")"
+    before: ""
+    after: " "
+    originalText: ")"
+    ner: "O"
+    lemma: ")"
+    beginChar: 230
+    endChar: 231
+    tokenBeginIndex: 49
+    tokenEndIndex: 50
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9993034808794798"
+  }
+  token {
+    word: "and"
+    pos: "CC"
+    value: "and"
+    before: " "
+    after: " "
+    originalText: "and"
+    ner: "O"
+    lemma: "and"
+    beginChar: 232
+    endChar: 235
+    tokenBeginIndex: 50
+    tokenEndIndex: 51
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999977422242431"
+  }
+  token {
+    word: "he"
+    pos: "PRP"
+    value: "he"
+    before: " "
+    after: " "
+    originalText: "he"
+    ner: "O"
+    lemma: "he"
+    beginChar: 236
+    endChar: 238
+    tokenBeginIndex: 51
+    tokenEndIndex: 52
+    hasXmlContext: false
+    isNewline: false
+    gender: "MALE"
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    entityMentionIndex: 7
+    nerLabelProbs: "O=0.9999977739578064"
+  }
+  token {
+    word: "is"
+    pos: "VBZ"
+    value: "is"
+    before: " "
+    after: " "
+    originalText: "is"
+    ner: "O"
+    lemma: "be"
+    beginChar: 239
+    endChar: 241
+    tokenBeginIndex: 52
+    tokenEndIndex: 53
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.999999805208366"
+  }
+  token {
+    word: "super"
+    pos: "RB"
+    value: "super"
+    before: " "
+    after: " "
+    originalText: "super"
+    ner: "O"
+    lemma: "super"
+    beginChar: 242
+    endChar: 247
+    tokenBeginIndex: 53
+    tokenEndIndex: 54
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9998565036969093"
+  }
+  token {
+    word: "nice"
+    pos: "JJ"
+    value: "nice"
+    before: " "
+    after: ""
+    originalText: "nice"
+    ner: "O"
+    lemma: "nice"
+    beginChar: 248
+    endChar: 252
+    tokenBeginIndex: 54
+    tokenEndIndex: 55
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9998526604312411"
+  }
+  token {
+    word: ","
+    pos: ","
+    value: ","
+    before: ""
+    after: " "
+    originalText: ","
+    ner: "O"
+    lemma: ","
+    beginChar: 252
+    endChar: 253
+    tokenBeginIndex: 55
+    tokenEndIndex: 56
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999995438341119"
+  }
+  token {
+    word: "coming"
+    pos: "VBG"
+    value: "coming"
+    before: " "
+    after: " "
+    originalText: "coming"
+    ner: "O"
+    lemma: "come"
+    beginChar: 254
+    endChar: 260
+    tokenBeginIndex: 56
+    tokenEndIndex: 57
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999901543033434"
+  }
+  token {
+    word: "out"
+    pos: "IN"
+    value: "out"
+    before: " "
+    after: " "
+    originalText: "out"
+    ner: "O"
+    lemma: "out"
+    beginChar: 261
+    endChar: 264
+    tokenBeginIndex: 57
+    tokenEndIndex: 58
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.999994831145273"
+  }
+  token {
+    word: "of"
+    pos: "IN"
+    value: "of"
+    before: " "
+    after: " "
+    originalText: "of"
+    ner: "O"
+    lemma: "of"
+    beginChar: 265
+    endChar: 267
+    tokenBeginIndex: 58
+    tokenEndIndex: 59
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999976570689617"
+  }
+  token {
+    word: "the"
+    pos: "DT"
+    value: "the"
+    before: " "
+    after: " "
+    originalText: "the"
+    ner: "O"
+    lemma: "the"
+    beginChar: 268
+    endChar: 271
+    tokenBeginIndex: 59
+    tokenEndIndex: 60
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999415324939019"
+  }
+  token {
+    word: "kitchen"
+    pos: "NN"
+    value: "kitchen"
+    before: " "
+    after: " "
+    originalText: "kitchen"
+    ner: "O"
+    lemma: "kitchen"
+    beginChar: 272
+    endChar: 279
+    tokenBeginIndex: 60
+    tokenEndIndex: 61
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9972489811596468"
+  }
+  token {
+    word: "and"
+    pos: "CC"
+    value: "and"
+    before: " "
+    after: " "
+    originalText: "and"
+    ner: "O"
+    lemma: "and"
+    beginChar: 280
+    endChar: 283
+    tokenBeginIndex: 61
+    tokenEndIndex: 62
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999857788810653"
+  }
+  token {
+    word: "greeted"
+    pos: "VBD"
+    value: "greeted"
+    before: " "
+    after: " "
+    originalText: "greeted"
+    ner: "O"
+    lemma: "greet"
+    beginChar: 284
+    endChar: 291
+    tokenBeginIndex: 62
+    tokenEndIndex: 63
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999944352319623"
+  }
+  token {
+    word: "us"
+    pos: "PRP"
+    value: "us"
+    before: " "
+    after: " "
+    originalText: "us"
+    ner: "O"
+    lemma: "we"
+    beginChar: 292
+    endChar: 294
+    tokenBeginIndex: 63
+    tokenEndIndex: 64
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999956941918572"
+  }
+  token {
+    word: "all"
+    pos: "DT"
+    value: "all"
+    before: " "
+    after: ""
+    originalText: "all"
+    ner: "O"
+    lemma: "all"
+    beginChar: 295
+    endChar: 298
+    tokenBeginIndex: 64
+    tokenEndIndex: 65
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999505513685919"
+  }
+  token {
+    word: "."
+    pos: "."
+    value: "."
+    before: ""
+    after: " "
+    originalText: "."
+    ner: "O"
+    lemma: "."
+    beginChar: 298
+    endChar: 299
+    tokenBeginIndex: 65
+    tokenEndIndex: 66
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999988975062986"
+  }
+  tokenOffsetBegin: 33
+  tokenOffsetEnd: 66
+  sentenceIndex: 2
+  characterOffsetBegin: 162
+  characterOffsetEnd: 299
+  hasRelationAnnotations: false
+  hasNumerizedTokensAnnotation: false
+  mentions {
+    sentenceIndex: 2
+    tokenStartInSentenceInclusive: 34
+    tokenEndInSentenceExclusive: 36
+    ner: "TITLE"
+    entityType: "TITLE"
+    entityMentionIndex: 3
+    canonicalEntityMentionIndex: 3
+    entityMentionText: "chief cook"
+  }
+  mentions {
+    sentenceIndex: 2
+    tokenStartInSentenceInclusive: 40
+    tokenEndInSentenceExclusive: 41
+    ner: "TITLE"
+    entityType: "TITLE"
+    entityMentionIndex: 4
+    canonicalEntityMentionIndex: 4
+    entityMentionText: "owner"
+  }
+  mentions {
+    sentenceIndex: 2
+    tokenStartInSentenceInclusive: 47
+    tokenEndInSentenceExclusive: 49
+    ner: "PERSON"
+    entityType: "PERSON"
+    entityMentionIndex: 5
+    canonicalEntityMentionIndex: 5
+    entityMentionText: "John Doe"
+  }
+  mentions {
+    sentenceIndex: 2
+    tokenStartInSentenceInclusive: 44
+    tokenEndInSentenceExclusive: 45
+    ner: "PERSON"
+    entityType: "PERSON"
+    entityMentionIndex: 6
+    canonicalEntityMentionIndex: 6
+    entityMentionText: "his"
+  }
+  mentions {
+    sentenceIndex: 2
+    tokenStartInSentenceInclusive: 51
+    tokenEndInSentenceExclusive: 52
+    ner: "PERSON"
+    entityType: "PERSON"
+    gender: "MALE"
+    entityMentionIndex: 7
+    canonicalEntityMentionIndex: 7
+    entityMentionText: "he"
+  }
+  hasEntityMentionsAnnotation: true
+}
+sentence {
+  token {
+    word: "We"
+    pos: "PRP"
+    value: "We"
+    before: " "
+    after: " "
+    originalText: "We"
+    ner: "O"
+    lemma: "we"
+    beginChar: 300
+    endChar: 302
+    tokenBeginIndex: 66
+    tokenEndIndex: 67
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999052311666993"
+  }
+  token {
+    word: "enjoyed"
+    pos: "VBD"
+    value: "enjoyed"
+    before: " "
+    after: " "
+    originalText: "enjoyed"
+    ner: "O"
+    lemma: "enjoy"
+    beginChar: 303
+    endChar: 310
+    tokenBeginIndex: 67
+    tokenEndIndex: 68
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999984320858245"
+  }
+  token {
+    word: "very"
+    pos: "RB"
+    value: "very"
+    before: " "
+    after: " "
+    originalText: "very"
+    ner: "O"
+    lemma: "very"
+    beginChar: 311
+    endChar: 315
+    tokenBeginIndex: 68
+    tokenEndIndex: 69
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999977105907109"
+  }
+  token {
+    word: "much"
+    pos: "JJ"
+    value: "much"
+    before: " "
+    after: " "
+    originalText: "much"
+    ner: "O"
+    lemma: "much"
+    beginChar: 316
+    endChar: 320
+    tokenBeginIndex: 69
+    tokenEndIndex: 70
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999953904092906"
+  }
+  token {
+    word: "dining"
+    pos: "NN"
+    value: "dining"
+    before: " "
+    after: " "
+    originalText: "dining"
+    ner: "O"
+    lemma: "dining"
+    beginChar: 321
+    endChar: 327
+    tokenBeginIndex: 70
+    tokenEndIndex: 71
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999986412307317"
+  }
+  token {
+    word: "in"
+    pos: "IN"
+    value: "in"
+    before: " "
+    after: " "
+    originalText: "in"
+    ner: "O"
+    lemma: "in"
+    beginChar: 328
+    endChar: 330
+    tokenBeginIndex: 71
+    tokenEndIndex: 72
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999997584722856"
+  }
+  token {
+    word: "the"
+    pos: "DT"
+    value: "the"
+    before: " "
+    after: " "
+    originalText: "the"
+    ner: "O"
+    lemma: "the"
+    beginChar: 331
+    endChar: 334
+    tokenBeginIndex: 72
+    tokenEndIndex: 73
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999992666099888"
+  }
+  token {
+    word: "place"
+    pos: "NN"
+    value: "place"
+    before: " "
+    after: ""
+    originalText: "place"
+    ner: "O"
+    lemma: "place"
+    beginChar: 335
+    endChar: 340
+    tokenBeginIndex: 73
+    tokenEndIndex: 74
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999546202810738"
+  }
+  token {
+    word: "!"
+    pos: "."
+    value: "!"
+    before: ""
+    after: " "
+    originalText: "!"
+    ner: "O"
+    lemma: "!"
+    beginChar: 340
+    endChar: 341
+    tokenBeginIndex: 74
+    tokenEndIndex: 75
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9998415311296864"
+  }
+  tokenOffsetBegin: 66
+  tokenOffsetEnd: 75
+  sentenceIndex: 3
+  characterOffsetBegin: 300
+  characterOffsetEnd: 341
+  hasRelationAnnotations: false
+  hasNumerizedTokensAnnotation: false
+  hasEntityMentionsAnnotation: true
+}
+sentence {
+  token {
+    word: "The"
+    pos: "DT"
+    value: "The"
+    before: " "
+    after: " "
+    originalText: "The"
+    ner: "O"
+    lemma: "the"
+    beginChar: 342
+    endChar: 345
+    tokenBeginIndex: 75
+    tokenEndIndex: 76
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9992554213280632"
+  }
+  token {
+    word: "Sirloin"
+    pos: "NN"
+    value: "Sirloin"
+    before: " "
+    after: " "
+    originalText: "Sirloin"
+    ner: "MISC"
+    lemma: "sirloin"
+    beginChar: 346
+    endChar: 353
+    tokenBeginIndex: 76
+    tokenEndIndex: 77
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "MISC"
+    fineGrainedNER: "MISC"
+    entityMentionIndex: 8
+    nerLabelProbs: "MISC=0.40636756748105946"
+  }
+  token {
+    word: "steak"
+    pos: "NN"
+    value: "steak"
+    before: " "
+    after: " "
+    originalText: "steak"
+    ner: "O"
+    lemma: "steak"
+    beginChar: 354
+    endChar: 359
+    tokenBeginIndex: 77
+    tokenEndIndex: 78
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9998704678863303"
+  }
+  token {
+    word: "I"
+    pos: "PRP"
+    value: "I"
+    before: " "
+    after: " "
+    originalText: "I"
+    ner: "O"
+    lemma: "I"
+    beginChar: 360
+    endChar: 361
+    tokenBeginIndex: 78
+    tokenEndIndex: 79
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999681247409627"
+  }
+  token {
+    word: "ordered"
+    pos: "VBD"
+    value: "ordered"
+    before: " "
+    after: " "
+    originalText: "ordered"
+    ner: "O"
+    lemma: "order"
+    beginChar: 362
+    endChar: 369
+    tokenBeginIndex: 79
+    tokenEndIndex: 80
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999989521180145"
+  }
+  token {
+    word: "was"
+    pos: "VBD"
+    value: "was"
+    before: " "
+    after: " "
+    originalText: "was"
+    ner: "O"
+    lemma: "be"
+    beginChar: 370
+    endChar: 373
+    tokenBeginIndex: 80
+    tokenEndIndex: 81
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999848112917534"
+  }
+  token {
+    word: "tender"
+    pos: "JJ"
+    value: "tender"
+    before: " "
+    after: " "
+    originalText: "tender"
+    ner: "O"
+    lemma: "tender"
+    beginChar: 374
+    endChar: 380
+    tokenBeginIndex: 81
+    tokenEndIndex: 82
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999859343835595"
+  }
+  token {
+    word: "and"
+    pos: "CC"
+    value: "and"
+    before: " "
+    after: " "
+    originalText: "and"
+    ner: "O"
+    lemma: "and"
+    beginChar: 381
+    endChar: 384
+    tokenBeginIndex: 82
+    tokenEndIndex: 83
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999980752290633"
+  }
+  token {
+    word: "juicy"
+    pos: "JJ"
+    value: "juicy"
+    before: " "
+    after: ""
+    originalText: "juicy"
+    ner: "O"
+    lemma: "juicy"
+    beginChar: 385
+    endChar: 390
+    tokenBeginIndex: 83
+    tokenEndIndex: 84
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999801490239262"
+  }
+  token {
+    word: ","
+    pos: ","
+    value: ","
+    before: ""
+    after: " "
+    originalText: ","
+    ner: "O"
+    lemma: ","
+    beginChar: 390
+    endChar: 391
+    tokenBeginIndex: 84
+    tokenEndIndex: 85
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999975729429204"
+  }
+  token {
+    word: "and"
+    pos: "CC"
+    value: "and"
+    before: " "
+    after: " "
+    originalText: "and"
+    ner: "O"
+    lemma: "and"
+    beginChar: 392
+    endChar: 395
+    tokenBeginIndex: 85
+    tokenEndIndex: 86
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999995576245465"
+  }
+  token {
+    word: "the"
+    pos: "DT"
+    value: "the"
+    before: " "
+    after: " "
+    originalText: "the"
+    ner: "O"
+    lemma: "the"
+    beginChar: 396
+    endChar: 399
+    tokenBeginIndex: 86
+    tokenEndIndex: 87
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999974102440771"
+  }
+  token {
+    word: "place"
+    pos: "NN"
+    value: "place"
+    before: " "
+    after: " "
+    originalText: "place"
+    ner: "O"
+    lemma: "place"
+    beginChar: 400
+    endChar: 405
+    tokenBeginIndex: 87
+    tokenEndIndex: 88
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999239234265784"
+  }
+  token {
+    word: "was"
+    pos: "VBD"
+    value: "was"
+    before: " "
+    after: " "
+    originalText: "was"
+    ner: "O"
+    lemma: "be"
+    beginChar: 406
+    endChar: 409
+    tokenBeginIndex: 88
+    tokenEndIndex: 89
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999736065641448"
+  }
+  token {
+    word: "impeccably"
+    pos: "RB"
+    value: "impeccably"
+    before: " "
+    after: " "
+    originalText: "impeccably"
+    ner: "O"
+    lemma: "impeccably"
+    beginChar: 410
+    endChar: 420
+    tokenBeginIndex: 89
+    tokenEndIndex: 90
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999953359685119"
+  }
+  token {
+    word: "clean"
+    pos: "JJ"
+    value: "clean"
+    before: " "
+    after: ""
+    originalText: "clean"
+    ner: "O"
+    lemma: "clean"
+    beginChar: 421
+    endChar: 426
+    tokenBeginIndex: 90
+    tokenEndIndex: 91
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999664622410991"
+  }
+  token {
+    word: "."
+    pos: "."
+    value: "."
+    before: ""
+    after: " "
+    originalText: "."
+    ner: "O"
+    lemma: "."
+    beginChar: 426
+    endChar: 427
+    tokenBeginIndex: 91
+    tokenEndIndex: 92
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999998246277227"
+  }
+  tokenOffsetBegin: 75
+  tokenOffsetEnd: 92
+  sentenceIndex: 4
+  characterOffsetBegin: 342
+  characterOffsetEnd: 427
+  hasRelationAnnotations: false
+  hasNumerizedTokensAnnotation: false
+  mentions {
+    sentenceIndex: 4
+    tokenStartInSentenceInclusive: 76
+    tokenEndInSentenceExclusive: 77
+    ner: "MISC"
+    entityType: "MISC"
+    entityMentionIndex: 8
+    canonicalEntityMentionIndex: 8
+    entityMentionText: "Sirloin"
+  }
+  hasEntityMentionsAnnotation: true
+}
+sentence {
+  token {
+    word: "You"
+    pos: "PRP"
+    value: "You"
+    before: " "
+    after: " "
+    originalText: "You"
+    ner: "O"
+    lemma: "you"
+    beginChar: 428
+    endChar: 431
+    tokenBeginIndex: 92
+    tokenEndIndex: 93
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999405621424607"
+  }
+  token {
+    word: "can"
+    pos: "MD"
+    value: "can"
+    before: " "
+    after: " "
+    originalText: "can"
+    ner: "O"
+    lemma: "can"
+    beginChar: 432
+    endChar: 435
+    tokenBeginIndex: 93
+    tokenEndIndex: 94
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.999999836918632"
+  }
+  token {
+    word: "even"
+    pos: "RB"
+    value: "even"
+    before: " "
+    after: " "
+    originalText: "even"
+    ner: "O"
+    lemma: "even"
+    beginChar: 436
+    endChar: 440
+    tokenBeginIndex: 94
+    tokenEndIndex: 95
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999986672461104"
+  }
+  token {
+    word: "pre-order"
+    pos: "VB"
+    value: "pre-order"
+    before: " "
+    after: " "
+    originalText: "pre-order"
+    ner: "O"
+    lemma: "pre-order"
+    beginChar: 441
+    endChar: 450
+    tokenBeginIndex: 95
+    tokenEndIndex: 96
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999914356292086"
+  }
+  token {
+    word: "from"
+    pos: "IN"
+    value: "from"
+    before: " "
+    after: " "
+    originalText: "from"
+    ner: "O"
+    lemma: "from"
+    beginChar: 451
+    endChar: 455
+    tokenBeginIndex: 96
+    tokenEndIndex: 97
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999998919931047"
+  }
+  token {
+    word: "their"
+    pos: "PRP$"
+    value: "their"
+    before: " "
+    after: " "
+    originalText: "their"
+    ner: "O"
+    lemma: "they"
+    beginChar: 456
+    endChar: 461
+    tokenBeginIndex: 97
+    tokenEndIndex: 98
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999991213627647"
+  }
+  token {
+    word: "online"
+    pos: "JJ"
+    value: "online"
+    before: " "
+    after: " "
+    originalText: "online"
+    ner: "O"
+    lemma: "online"
+    beginChar: 462
+    endChar: 468
+    tokenBeginIndex: 98
+    tokenEndIndex: 99
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.999978561880805"
+  }
+  token {
+    word: "menu"
+    pos: "NN"
+    value: "menu"
+    before: " "
+    after: " "
+    originalText: "menu"
+    ner: "O"
+    lemma: "menu"
+    beginChar: 469
+    endChar: 473
+    tokenBeginIndex: 99
+    tokenEndIndex: 100
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999536647432824"
+  }
+  token {
+    word: "at"
+    pos: "IN"
+    value: "at"
+    before: " "
+    after: " "
+    originalText: "at"
+    ner: "O"
+    lemma: "at"
+    beginChar: 474
+    endChar: 476
+    tokenBeginIndex: 100
+    tokenEndIndex: 101
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999993925793118"
+  }
+  token {
+    word: "www.contososteakhouse.com"
+    pos: "ADD"
+    value: "www.contososteakhouse.com"
+    before: " "
+    after: ""
+    originalText: "www.contososteakhouse.com"
+    ner: "URL"
+    lemma: "www.contososteakhouse.com"
+    beginChar: 477
+    endChar: 502
+    tokenBeginIndex: 101
+    tokenEndIndex: 102
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "URL"
+    entityMentionIndex: 9
+    nerLabelProbs: "O=0.9927510899405183"
+  }
+  token {
+    word: ","
+    pos: ","
+    value: ","
+    before: ""
+    after: " "
+    originalText: ","
+    ner: "O"
+    lemma: ","
+    beginChar: 502
+    endChar: 503
+    tokenBeginIndex: 102
+    tokenEndIndex: 103
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999995291379349"
+  }
+  token {
+    word: "call"
+    pos: "VB"
+    value: "call"
+    before: " "
+    after: " "
+    originalText: "call"
+    ner: "O"
+    lemma: "call"
+    beginChar: 504
+    endChar: 508
+    tokenBeginIndex: 103
+    tokenEndIndex: 104
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999444865365101"
+  }
+  token {
+    word: "312-555-0176"
+    pos: "CD"
+    value: "312-555-0176"
+    before: " "
+    after: " "
+    originalText: "312-555-0176"
+    ner: "NUMBER"
+    lemma: "312-555-0176"
+    beginChar: 509
+    endChar: 521
+    tokenBeginIndex: 104
+    tokenEndIndex: 105
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "NUMBER"
+    fineGrainedNER: "NUMBER"
+    entityMentionIndex: 10
+    nerLabelProbs: "NUMBER=-1.0"
+  }
+  token {
+    word: "or"
+    pos: "CC"
+    value: "or"
+    before: " "
+    after: " "
+    originalText: "or"
+    ner: "O"
+    lemma: "or"
+    beginChar: 522
+    endChar: 524
+    tokenBeginIndex: 105
+    tokenEndIndex: 106
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999999455266974"
+  }
+  token {
+    word: "send"
+    pos: "VB"
+    value: "send"
+    before: " "
+    after: " "
+    originalText: "send"
+    ner: "O"
+    lemma: "send"
+    beginChar: 525
+    endChar: 529
+    tokenBeginIndex: 106
+    tokenEndIndex: 107
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.999990205845721"
+  }
+  token {
+    word: "email"
+    pos: "NN"
+    value: "email"
+    before: " "
+    after: " "
+    originalText: "email"
+    ner: "O"
+    lemma: "email"
+    beginChar: 530
+    endChar: 535
+    tokenBeginIndex: 107
+    tokenEndIndex: 108
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999806773987062"
+  }
+  token {
+    word: "to"
+    pos: "IN"
+    value: "to"
+    before: " "
+    after: " "
+    originalText: "to"
+    ner: "O"
+    lemma: "to"
+    beginChar: 536
+    endChar: 538
+    tokenBeginIndex: 108
+    tokenEndIndex: 109
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999999917741889"
+  }
+  token {
+    word: "order@contososteakhouse.com"
+    pos: "ADD"
+    value: "order@contososteakhouse.com"
+    before: " "
+    after: ""
+    originalText: "order@contososteakhouse.com"
+    ner: "EMAIL"
+    lemma: "order@contososteakhouse.com"
+    beginChar: 539
+    endChar: 566
+    tokenBeginIndex: 109
+    tokenEndIndex: 110
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "EMAIL"
+    entityMentionIndex: 11
+    nerLabelProbs: "O=0.999817718144183"
+  }
+  token {
+    word: "!"
+    pos: "."
+    value: "!"
+    before: ""
+    after: " "
+    originalText: "!"
+    ner: "O"
+    lemma: "!"
+    beginChar: 566
+    endChar: 567
+    tokenBeginIndex: 110
+    tokenEndIndex: 111
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.999980513979606"
+  }
+  tokenOffsetBegin: 92
+  tokenOffsetEnd: 111
+  sentenceIndex: 5
+  characterOffsetBegin: 428
+  characterOffsetEnd: 567
+  hasRelationAnnotations: false
+  hasNumerizedTokensAnnotation: false
+  mentions {
+    sentenceIndex: 5
+    tokenStartInSentenceInclusive: 101
+    tokenEndInSentenceExclusive: 102
+    ner: "URL"
+    entityType: "URL"
+    entityMentionIndex: 9
+    canonicalEntityMentionIndex: 9
+    entityMentionText: "www.contososteakhouse.com"
+  }
+  mentions {
+    sentenceIndex: 5
+    tokenStartInSentenceInclusive: 104
+    tokenEndInSentenceExclusive: 105
+    ner: "NUMBER"
+    entityType: "NUMBER"
+    entityMentionIndex: 10
+    canonicalEntityMentionIndex: 10
+    entityMentionText: "312-555-0176"
+  }
+  mentions {
+    sentenceIndex: 5
+    tokenStartInSentenceInclusive: 109
+    tokenEndInSentenceExclusive: 110
+    ner: "EMAIL"
+    entityType: "EMAIL"
+    entityMentionIndex: 11
+    canonicalEntityMentionIndex: 11
+    entityMentionText: "order@contososteakhouse.com"
+  }
+  hasEntityMentionsAnnotation: true
+}
+sentence {
+  token {
+    word: "The"
+    pos: "DT"
+    value: "The"
+    before: " "
+    after: " "
+    originalText: "The"
+    ner: "O"
+    lemma: "the"
+    beginChar: 568
+    endChar: 571
+    tokenBeginIndex: 111
+    tokenEndIndex: 112
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999886185376246"
+  }
+  token {
+    word: "only"
+    pos: "JJ"
+    value: "only"
+    before: " "
+    after: " "
+    originalText: "only"
+    ner: "O"
+    lemma: "only"
+    beginChar: 572
+    endChar: 576
+    tokenBeginIndex: 112
+    tokenEndIndex: 113
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999983373754057"
+  }
+  token {
+    word: "complaint"
+    pos: "NN"
+    value: "complaint"
+    before: " "
+    after: " "
+    originalText: "complaint"
+    ner: "O"
+    lemma: "complaint"
+    beginChar: 577
+    endChar: 586
+    tokenBeginIndex: 113
+    tokenEndIndex: 114
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999731520676356"
+  }
+  token {
+    word: "I"
+    pos: "PRP"
+    value: "I"
+    before: " "
+    after: " "
+    originalText: "I"
+    ner: "O"
+    lemma: "I"
+    beginChar: 587
+    endChar: 588
+    tokenBeginIndex: 114
+    tokenEndIndex: 115
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999453147306661"
+  }
+  token {
+    word: "have"
+    pos: "VBP"
+    value: "have"
+    before: " "
+    after: " "
+    originalText: "have"
+    ner: "O"
+    lemma: "have"
+    beginChar: 589
+    endChar: 593
+    tokenBeginIndex: 115
+    tokenEndIndex: 116
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999970270822724"
+  }
+  token {
+    word: "is"
+    pos: "VBZ"
+    value: "is"
+    before: " "
+    after: " "
+    originalText: "is"
+    ner: "O"
+    lemma: "be"
+    beginChar: 594
+    endChar: 596
+    tokenBeginIndex: 116
+    tokenEndIndex: 117
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999992933526524"
+  }
+  token {
+    word: "the"
+    pos: "DT"
+    value: "the"
+    before: " "
+    after: " "
+    originalText: "the"
+    ner: "O"
+    lemma: "the"
+    beginChar: 597
+    endChar: 600
+    tokenBeginIndex: 117
+    tokenEndIndex: 118
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999843079421838"
+  }
+  token {
+    word: "food"
+    pos: "NN"
+    value: "food"
+    before: " "
+    after: " "
+    originalText: "food"
+    ner: "O"
+    lemma: "food"
+    beginChar: 601
+    endChar: 605
+    tokenBeginIndex: 118
+    tokenEndIndex: 119
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999806381743227"
+  }
+  token {
+    word: "did"
+    pos: "VBD"
+    value: "did"
+    before: " "
+    after: ""
+    originalText: "did"
+    ner: "O"
+    lemma: "do"
+    beginChar: 606
+    endChar: 609
+    tokenBeginIndex: 119
+    tokenEndIndex: 120
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999999547742969"
+  }
+  token {
+    word: "n\'t"
+    pos: "RB"
+    value: "n\'t"
+    before: ""
+    after: " "
+    originalText: "n\'t"
+    ner: "O"
+    lemma: "not"
+    beginChar: 609
+    endChar: 612
+    tokenBeginIndex: 120
+    tokenEndIndex: 121
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999991243770264"
+  }
+  token {
+    word: "come"
+    pos: "VB"
+    value: "come"
+    before: " "
+    after: " "
+    originalText: "come"
+    ner: "O"
+    lemma: "come"
+    beginChar: 613
+    endChar: 617
+    tokenBeginIndex: 121
+    tokenEndIndex: 122
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999996566949413"
+  }
+  token {
+    word: "fast"
+    pos: "RB"
+    value: "fast"
+    before: " "
+    after: " "
+    originalText: "fast"
+    ner: "O"
+    lemma: "fast"
+    beginChar: 618
+    endChar: 622
+    tokenBeginIndex: 122
+    tokenEndIndex: 123
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999893808820505"
+  }
+  token {
+    word: "enough"
+    pos: "RB"
+    value: "enough"
+    before: " "
+    after: ""
+    originalText: "enough"
+    ner: "O"
+    lemma: "enough"
+    beginChar: 623
+    endChar: 629
+    tokenBeginIndex: 123
+    tokenEndIndex: 124
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999956315446843"
+  }
+  token {
+    word: "."
+    pos: "."
+    value: "."
+    before: ""
+    after: " "
+    originalText: "."
+    ner: "O"
+    lemma: "."
+    beginChar: 629
+    endChar: 630
+    tokenBeginIndex: 124
+    tokenEndIndex: 125
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999996993272927"
+  }
+  tokenOffsetBegin: 111
+  tokenOffsetEnd: 125
+  sentenceIndex: 6
+  characterOffsetBegin: 568
+  characterOffsetEnd: 630
+  hasRelationAnnotations: false
+  hasNumerizedTokensAnnotation: false
+  hasEntityMentionsAnnotation: true
+}
+sentence {
+  token {
+    word: "Overall"
+    pos: "RB"
+    value: "Overall"
+    before: " "
+    after: " "
+    originalText: "Overall"
+    ner: "O"
+    lemma: "overall"
+    beginChar: 631
+    endChar: 638
+    tokenBeginIndex: 125
+    tokenEndIndex: 126
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9982023649765622"
+  }
+  token {
+    word: "I"
+    pos: "PRP"
+    value: "I"
+    before: " "
+    after: " "
+    originalText: "I"
+    ner: "O"
+    lemma: "I"
+    beginChar: 639
+    endChar: 640
+    tokenBeginIndex: 126
+    tokenEndIndex: 127
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999581927835164"
+  }
+  token {
+    word: "highly"
+    pos: "RB"
+    value: "highly"
+    before: " "
+    after: " "
+    originalText: "highly"
+    ner: "O"
+    lemma: "highly"
+    beginChar: 641
+    endChar: 647
+    tokenBeginIndex: 127
+    tokenEndIndex: 128
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.999997981521792"
+  }
+  token {
+    word: "recommend"
+    pos: "VBP"
+    value: "recommend"
+    before: " "
+    after: " "
+    originalText: "recommend"
+    ner: "O"
+    lemma: "recommend"
+    beginChar: 648
+    endChar: 657
+    tokenBeginIndex: 128
+    tokenEndIndex: 129
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999994427748493"
+  }
+  token {
+    word: "it"
+    pos: "PRP"
+    value: "it"
+    before: " "
+    after: ""
+    originalText: "it"
+    ner: "O"
+    lemma: "it"
+    beginChar: 658
+    endChar: 660
+    tokenBeginIndex: 129
+    tokenEndIndex: 130
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999997321519561"
+  }
+  token {
+    word: "!"
+    pos: "."
+    value: "!"
+    before: ""
+    after: ""
+    originalText: "!"
+    ner: "O"
+    lemma: "!"
+    beginChar: 660
+    endChar: 661
+    tokenBeginIndex: 130
+    tokenEndIndex: 131
+    hasXmlContext: false
+    isNewline: false
+    coarseNER: "O"
+    fineGrainedNER: "O"
+    nerLabelProbs: "O=0.9999822328488199"
+  }
+  tokenOffsetBegin: 125
+  tokenOffsetEnd: 131
+  sentenceIndex: 7
+  characterOffsetBegin: 631
+  characterOffsetEnd: 661
+  hasRelationAnnotations: false
+  hasNumerizedTokensAnnotation: false
+  hasEntityMentionsAnnotation: true
+}
+mentions {
+  sentenceIndex: 0
+  tokenStartInSentenceInclusive: 3
+  tokenEndInSentenceExclusive: 5
+  ner: "ORGANIZATION"
+  entityType: "ORGANIZATION"
+  entityMentionIndex: 0
+  canonicalEntityMentionIndex: 0
+  entityMentionText: "Contoso Steakhouse"
+}
+mentions {
+  sentenceIndex: 0
+  tokenStartInSentenceInclusive: 8
+  tokenEndInSentenceExclusive: 9
+  ner: "CITY"
+  entityType: "CITY"
+  entityMentionIndex: 1
+  canonicalEntityMentionIndex: 1
+  entityMentionText: "NYC"
+}
+mentions {
+  sentenceIndex: 0
+  tokenStartInSentenceInclusive: 9
+  tokenEndInSentenceExclusive: 11
+  ner: "DATE"
+  normalizedNER: "THIS P1W OFFSET P-1W"
+  entityType: "DATE"
+  timex {
+    altValue: "THIS P1W OFFSET P-1W"
+    text: "last week"
+    type: "DATE"
+    tid: "t1"
+  }
+  entityMentionIndex: 2
+  canonicalEntityMentionIndex: 2
+  entityMentionText: "last week"
+}
+mentions {
+  sentenceIndex: 2
+  tokenStartInSentenceInclusive: 34
+  tokenEndInSentenceExclusive: 36
+  ner: "TITLE"
+  entityType: "TITLE"
+  entityMentionIndex: 3
+  canonicalEntityMentionIndex: 3
+  entityMentionText: "chief cook"
+}
+mentions {
+  sentenceIndex: 2
+  tokenStartInSentenceInclusive: 40
+  tokenEndInSentenceExclusive: 41
+  ner: "TITLE"
+  entityType: "TITLE"
+  entityMentionIndex: 4
+  canonicalEntityMentionIndex: 4
+  entityMentionText: "owner"
+}
+mentions {
+  sentenceIndex: 2
+  tokenStartInSentenceInclusive: 47
+  tokenEndInSentenceExclusive: 49
+  ner: "PERSON"
+  entityType: "PERSON"
+  entityMentionIndex: 5
+  canonicalEntityMentionIndex: 5
+  entityMentionText: "John Doe"
+}
+mentions {
+  sentenceIndex: 2
+  tokenStartInSentenceInclusive: 44
+  tokenEndInSentenceExclusive: 45
+  ner: "PERSON"
+  entityType: "PERSON"
+  entityMentionIndex: 6
+  canonicalEntityMentionIndex: 6
+  entityMentionText: "his"
+}
+mentions {
+  sentenceIndex: 2
+  tokenStartInSentenceInclusive: 51
+  tokenEndInSentenceExclusive: 52
+  ner: "PERSON"
+  entityType: "PERSON"
+  gender: "MALE"
+  entityMentionIndex: 7
+  canonicalEntityMentionIndex: 7
+  entityMentionText: "he"
+}
+mentions {
+  sentenceIndex: 4
+  tokenStartInSentenceInclusive: 76
+  tokenEndInSentenceExclusive: 77
+  ner: "MISC"
+  entityType: "MISC"
+  entityMentionIndex: 8
+  canonicalEntityMentionIndex: 8
+  entityMentionText: "Sirloin"
+}
+mentions {
+  sentenceIndex: 5
+  tokenStartInSentenceInclusive: 101
+  tokenEndInSentenceExclusive: 102
+  ner: "URL"
+  entityType: "URL"
+  entityMentionIndex: 9
+  canonicalEntityMentionIndex: 9
+  entityMentionText: "www.contososteakhouse.com"
+}
+mentions {
+  sentenceIndex: 5
+  tokenStartInSentenceInclusive: 104
+  tokenEndInSentenceExclusive: 105
+  ner: "NUMBER"
+  entityType: "NUMBER"
+  entityMentionIndex: 10
+  canonicalEntityMentionIndex: 10
+  entityMentionText: "312-555-0176"
+}
+mentions {
+  sentenceIndex: 5
+  tokenStartInSentenceInclusive: 109
+  tokenEndInSentenceExclusive: 110
+  ner: "EMAIL"
+  entityType: "EMAIL"
+  entityMentionIndex: 11
+  canonicalEntityMentionIndex: 11
+  entityMentionText: "order@contososteakhouse.com"
+}
+xmlDoc: false
+hasEntityMentionsAnnotation: true
+hasCorefMentionAnnotation: false
+hasCorefAnnotation: false
