@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "textalytics-oss-adapters"
-version = "0.1.0"
+version = "0.1.1"
 description = "textalytics interface implementation for popular NLP open source libraries"
 authors = ["Manoj Bharadwaj <manoj@cloudcosmos.tech>"]
 license = "MIT"
@@ -11,8 +11,8 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.9"
-textalytics-core = "^0.1.1"
+python = "^3.8"
+textalytics-core = "^0.1.2"
 spacy = "^3.1.2"
 stanza = "^1.2.3"
 
